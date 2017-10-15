@@ -1,0 +1,64 @@
+.ykien{
+	width: auto;
+	height: auto;
+	padding: 10px;
+	margin: auto;
+}
+
+.noidung{
+	border: solid 2px black;
+	color: black;
+	border-radius: 5px;
+}
+
+.noidungykien{
+	border: solid 2px black;
+	color: black;
+	border-radius: 5px;
+	width: 100%;
+	height: 150px;
+}
+
+
+.khung{
+	border: solid 2px #5a5a5a;
+	border-radius: 5px;
+}
+
+.button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 10px;
+	background-color: #3f4e54;
+	color: white;
+	border: solid 1px #5a5a5a;
+}
+
+.button2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 50px 10px 10px 10px;
+	background-color: #3f4e54;
+	color: white;
+	border: solid 1px #5a5a5a;
+
+}
+
+.logolienhe{
+	display: block;
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.goiy{
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	color: black;
+}
