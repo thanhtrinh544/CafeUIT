@@ -16,7 +16,32 @@
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custum.css">
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+      function Mautextbox(mau){
+       var tbox = document.getElementById('login1');
+        if(mau == 1){
+          tbox.style.border = "solid 3px black";
+        }
+        else
+        {
+          tbox.style.border = "solid 3px #9a9a9a";
+        }
+      }
+
+
+      function Mautextbox2(mau2){
+       var tbox2 = document.getElementById('login2');
+        if(mau2 == 1){
+          tbox2.style.border = "solid 3px black";
+        }
+        else
+        {
+          tbox2.style.border = "solid 3px #9a9a9a";
+        }
+      }
+
+
+    </script>
   </head>
 
   <body>
@@ -63,7 +88,7 @@
     </nav>
 
   <!-- Khung login -->
-<div class="container khunglogin">
+<div class="container khunglogin" id="dangnhaptk">
   <form>
   <div class="row">
     <div class="col-lg-2"><img src=""></div>
@@ -72,12 +97,12 @@
       <h3 class="fontlogin">Hãy trở thành một thành viên của chúng tôi</h3></br>
       <div style="text-align: center;">
         <h5>Tài khoản:</h5>
-        <input type="text" name="tk" placeholder="Không viết hoa" class="inputlogin" id="login1">
+        <input type="text" name="tk" placeholder="Không viết hoa" class="inputlogin" id="login1" onfocus="Mautextbox(1)" onblur="Mautextbox(3)">
       </div>
 
       <div style="text-align: center;margin-top: 10px;">
         <h5>Mật khẩu:</h5>
-        <input type="Password" name="pass" placeholder="Không quá 30 kí tự" class="inputlogin">
+        <input type="Password" name="pass" placeholder="Không quá 30 kí tự" class="inputlogin" id="login2"  onfocus="Mautextbox2(1)" onblur="Mautextbox2(3)">
       </div> 
 
       <div class="fontlogin">
@@ -90,10 +115,12 @@
 
   <div class="fontlogin">
     <h5>Bạn chưa có tài khoản. <a href="signup.html" style="text-decoration: none;">Đăng kí ngay</a></h5>
-    <a href="#" style="text-decoration:none;"><h5>Quên mật khẩu.</h5></a>
+    <a href="forgetpw.html" style="text-decoration:none;"><h5>Quên mật khẩu.</h5></a>
   </div>
   </form>
 </div>
+
+
 
 
     <div class="container">
