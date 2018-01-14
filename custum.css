@@ -52,6 +52,21 @@
 
 }
 
+.button3{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 50px 10px 10px 0px;
+	line-height: 2;
+	background-color: #3f4e54;
+	color: white;
+	border: solid 1px #5a5a5a;
+	border-radius: 3px;
+	text-decoration: none;
+
+}
+
 .logolienhe{
 	display: block;
 	float: left;
@@ -76,6 +91,12 @@
 	text-align: center;
 }
 
+.button3:hover {
+	background-color: grey;
+	text-decoration: none;
+	color: white;
+}
+
 .button2:hover {
 	background-color: grey;
 	text-decoration: none;
@@ -87,3 +108,5 @@
 	text-decoration: none;
 	color: white;
 }
+
+
